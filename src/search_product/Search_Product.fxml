@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="1084.0" style="or: ;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="search_user.SearchUserScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff6c22" height="119.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1084.0" />
+      <Circle fill="#2b3499" layoutX="837.0" layoutY="54.0" radius="29.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="32.0" layoutY="33.0" text="Search Product">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="888.0" layoutY="38.0" text="Viraj (Admin)">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="824.0" layoutY="28.0" text="V" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="153.0" />
+      <Label layoutX="79.0" layoutY="140.0" text=" Product Name To Search">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="222.0" text=" Product Name (English)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="294.0" text=" Product ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="440.0" text="Quantity">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="509.0" prefHeight="27.0" prefWidth="89.0" text="Category">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="368.0" text="Price">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameToSearch" layoutX="334.0" layoutY="132.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="loginName" layoutX="334.0" layoutY="285.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="userName" layoutX="334.0" layoutY="213.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="price" layoutX="334.0" layoutY="359.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="quantity" layoutX="334.0" layoutY="431.0" prefHeight="45.0" prefWidth="503.0" />
+      <TextField fx:id="category" layoutX="334.0" layoutY="500.0" prefHeight="45.0" prefWidth="503.0" />
+      <Button fx:id="search" layoutX="888.0" layoutY="132.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="45.0" prefWidth="176.0" style="-fx-background-color: #FF9209; -fx-border-color: #2B3499;" text="Search" textFill="#f8f3f3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="close" layoutX="334.0" layoutY="631.0" mnemonicParsing="false" onAction="#closeButton" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: red;" text="Close">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="done" layoutX="594.0" layoutY="631.0" mnemonicParsing="false" onAction="#doneButton" prefHeight="48.0" prefWidth="188.0" style="-fx-border-color: red;" text="Done">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

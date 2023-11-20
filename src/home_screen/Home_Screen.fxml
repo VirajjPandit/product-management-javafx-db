@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity"  fx:controller="home_screen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="1013.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="433.0" layoutY="73.0" prefHeight="77.0" prefWidth="338.0" text="Home Screen">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8d1f" height="653.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+      <TextField fx:id="UserManagement" layoutX="305.0" layoutY="186.0" onAction="#showUserManagementScreen" prefHeight="77.0" prefWidth="576.0" promptText="User Management" />
+      <TextField fx:id="ProductManagement" layoutX="305.0" layoutY="327.0" onAction="#showProductManagementScreen" prefHeight="77.0" prefWidth="576.0" promptText="Product Management" />
+      <TextField fx:id="BcakToHome" layoutX="305.0" layoutY="475.0" onAction="#BackToHomeScreen" prefHeight="77.0" prefWidth="576.0" promptText="Back" />
+   </children>
+</Pane>

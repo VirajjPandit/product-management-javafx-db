@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1076.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8f1f" height="121.0" stroke="BLACK" strokeType="INSIDE" width="1076.0" />
+      <Button fx:id="AddUser" layoutX="113.0" layoutY="210.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #ff8f1f;" text="Add User" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="EditUser" layoutX="113.0" layoutY="298.0" mnemonicParsing="false" onAction="#EditUser" prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #ff8f1f;" text="Edit User" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="SearchUser" layoutX="113.0" layoutY="389.0" mnemonicParsing="false" onAction="#SearchUser" prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #ff8f1f;" text="Search User" textFill="#f2f0f0">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeleteUser" layoutX="113.0" layoutY="483.0" mnemonicParsing="false" onAction="#DeleteUser" prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #ff8f1f;" text="Delete User" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="Ouit" layoutX="113.0" layoutY="575.0" mnemonicParsing="false" onAction="#Quit" prefHeight="62.0" prefWidth="837.0" style="-fx-background-color: #ff8f1f;" text="Ouit" textFill="#f2eeee">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Button>
+      <Label layoutX="290.0" layoutY="27.0" text="User Management" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="56.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

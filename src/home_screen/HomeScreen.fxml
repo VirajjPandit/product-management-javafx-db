@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="home_screen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="1013.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="Buttons" layoutX="226.0" layoutY="225.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="723.0" style="-fx-background-color: #FF9209;" text="User Management" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="Buttons" layoutX="226.0" layoutY="335.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="723.0" style="-fx-background-color: #FF9209;" text="Product Management" textFill="#fff9f9">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="Buttons" layoutX="230.0" layoutY="450.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="723.0" style="-fx-background-color: #FF9209;" text="Back" textFill="#fcf9f9">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Button>
+      <Label layoutX="433.0" layoutY="73.0" prefHeight="77.0" prefWidth="338.0" text="Home Screen">
+         <font>
+            <Font name="System Bold" size="53.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8d1f" height="653.0" stroke="BLACK" strokeType="INSIDE" width="170.0" />
+   </children>
+</Pane>

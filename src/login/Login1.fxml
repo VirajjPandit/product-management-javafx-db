@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="login.LoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="loginName" layoutX="255.0" layoutY="130.0" prefHeight="39.0" prefWidth="301.0" promptText="User Name" />
+      <TextField fx:id="password" layoutX="255.0" layoutY="191.0" prefHeight="39.0" prefWidth="301.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="255.0" layoutY="251.0" mnemonicParsing="false" onAction="#login" prefHeight="39.0" prefWidth="301.0" text="login">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="360.0" layoutY="60.0" prefHeight="41.0" prefWidth="301.0" text="Login">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff9421" height="406.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="231.0" />
+      <ImageView fitHeight="221.0" fitWidth="343.0" layoutX="19.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./WhatsApp%20Image%202023-10-31%20at%206.32.15%20PM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
